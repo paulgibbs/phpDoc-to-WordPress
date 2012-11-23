@@ -19,7 +19,7 @@
 				<wp:wxr_version>1.2</wp:wxr_version>
 				<wp:base_site_url>http://example.com</wp:base_site_url>
 				<wp:base_blog_url>http://example.com</wp:base_blog_url>
-				<generator>http://TODO-put-our-generator-url-here.com</generator>
+				<generator>http://github.com/paulgibbs/phpdoc-to-wordpress</generator>
 
 				<!-- List the functions -->
 				<xsl:apply-templates select="/project/file/function"/>
