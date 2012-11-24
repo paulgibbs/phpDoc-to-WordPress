@@ -9,7 +9,6 @@
 
 	<xsl:template match="/project">
 		<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
-
 			<!-- WP Importer meta -->
 			<channel>
 				<title>Example Site</title>
@@ -21,10 +20,12 @@
 				<wp:base_blog_url>http://example.com</wp:base_blog_url>
 				<generator>http://github.com/paulgibbs/phpdoc-to-wordpress</generator>
 
-				<!-- List the functions -->
+				<!-- List functions -->
 				<xsl:apply-templates select="/project/file/function"/>
-			</channel>
 
+				<!-- List class methods -->
+		<!--		<xsl:apply-templates select="/project/file/class/method"/> -->
+			</channel>
 		</rss>
 	</xsl:template>
 
@@ -128,7 +129,7 @@
 		</item>
 	</xsl:template>
 
-	<!-- Basic function arguments -->
+	<!-- Functions: basic arguments -->
 	<xsl:template match="argument">
 		<!-- Variable type -->
 		<xsl:variable name="var_type" select="name"/>
@@ -160,7 +161,7 @@
 		</category>
 	</xsl:template>
 
-	<!-- See Also -->
+	<!-- Functions: See Also -->
 	<xsl:template match="docblock/tag[@name='see']">
 		<xsl:value-of select="replace(replace(@description, '[{}\\]', ''), 'global', '')"/>
 	</xsl:template>
