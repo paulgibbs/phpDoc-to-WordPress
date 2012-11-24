@@ -125,7 +125,7 @@
 			</content:encoded>
 
 			<!-- Custom taxonomy meta -->
-			<xsl:apply-templates select="docblock/tag[@name='since']"/>
+			<xsl:apply-templates select="./docblock/tag[@name='since']"/>
 		</item>
 	</xsl:template>
 
@@ -148,7 +148,7 @@
 	</xsl:template>
 
 	<!-- Custom taxonomies -->
-	<xsl:template match="docblock/tag[@name='since']">
+	<xsl:template match="function/docblock/tag[@name='since']">
 		<category domain="contexts" nicename="developer">Developer</category>
 		<category domain="types" nicename="functions">Functions</category>
 
