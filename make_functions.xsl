@@ -48,6 +48,7 @@
 			<wp:post_type>page</wp:post_type>
 			<wp:status>publish</wp:status>
 
+			<!-- Set title and dates -->
 			<title><xsl:value-of select="name"/></title>
 			<wp:post_date><xsl:value-of select="format-dateTime(current-dateTime(), '[Y0001]-[M01]-[D01] [H01]:[m01]:[s01]')"/></wp:post_date>
 			<wp:post_date_gmt>
@@ -142,18 +143,21 @@
 			<wp:is_sticky>0</wp:is_sticky>
 			<wp:menu_order>0</wp:menu_order>
 			<wp:ping_status>closed</wp:ping_status>
-			<wp:post_name></wp:post_name>
 			<wp:post_parent>0</wp:post_parent>
 			<wp:post_password></wp:post_password>
 			<wp:post_type>page</wp:post_type>
 			<wp:status>publish</wp:status>
 
+			<!-- Set title and dates -->
 			<title><xsl:value-of select="name"/></title>
 			<wp:post_date><xsl:value-of select="format-dateTime(current-dateTime(), '[Y0001]-[M01]-[D01] [H01]:[m01]:[s01]')"/></wp:post_date>
 			<wp:post_date_gmt>
 				<xsl:value-of select="format-dateTime(current-dateTime(), '[Y0001]-[M01]-[D01] ')"/>
 				<xsl:value-of select="format-dateTime(adjust-dateTime-to-timezone(current-dateTime()), '[H01]:[m01]:[s01]')"/>
 			</wp:post_date_gmt>
+
+			<!-- Prefix the post's name with the class' name to avoid conflicts -->
+			<wp:post_name><xsl:value-of select="concat(../name, '_', name)"/></wp:post_name>
 
 			<!-- The page content -->
 			<content:encoded>
