@@ -128,6 +128,7 @@
 
 			<!-- Custom taxonomy meta -->
 			<xsl:apply-templates select="./docblock/tag[@name='since']"/>
+
 		</item>
 	</xsl:template>
 
@@ -260,6 +261,7 @@
 
 			<!-- Custom taxonomy meta -->
 			<xsl:apply-templates select="./docblock/tag[@name='since']"/>
+
 		</item>
 	</xsl:template>
 
