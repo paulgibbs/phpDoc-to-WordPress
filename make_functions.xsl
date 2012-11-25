@@ -157,8 +157,16 @@
 				<xsl:value-of select="format-dateTime(adjust-dateTime-to-timezone(current-dateTime()), '[H01]:[m01]:[s01]')"/>
 			</wp:post_date_gmt>
 
-			<!-- Prefix the post's name with the class' name to avoid conflicts -->
-			<wp:post_name><xsl:value-of select="concat(../name, '_', name)"/></wp:post_name>
+			<!-- Prefix the post's name with an abbreviation of the class' name to avoid conflicts -->
+			<wp:post_name>
+				<xsl:analyze-string select="../name" regex="([^_]+)">
+					<xsl:matching-substring>
+						<xsl:value-of select="substring(normalize-space(regex-group(1)), 1, 1)"/>
+					</xsl:matching-substring>
+				</xsl:analyze-string>
+
+				<xsl:value-of select="concat('_', name, '')"/>
+			</wp:post_name>
 
 			<!-- The page content -->
 			<content:encoded>
