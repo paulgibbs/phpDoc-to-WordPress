@@ -23,4 +23,4 @@ Sets up the custom taxonomies used by the phpDoc to WordPress scripts.
 
 ## Frequently Asked Questions
 ### How do I actually get my project's phpDoc into WordPress?
-See ........com for instructions.
+Everything else that you need is contained within the plugin, but check out .....com for further instructions.
