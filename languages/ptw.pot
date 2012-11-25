@@ -1,0 +1,243 @@
+# Copyright (C) 2012 phpDoc to WordPress Helpers
+# This file is distributed under the same license as the phpDoc to WordPress Helpers package.
+msgid ""
+msgstr ""
+"Project-Id-Version: phpDoc to WordPress Helpers 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/phpdoc-to-wordpress\n"
+"POT-Creation-Date: 2012-11-25 19:27:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: phpdoc-to-wordpress.php:53 phpdoc-to-wordpress.php:67
+msgctxt "ptw"
+msgid "Versions"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:54
+msgctxt "ptw"
+msgid "Version"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:55
+msgctxt "ptw"
+msgid "Search Versions"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:56
+msgctxt "ptw"
+msgid "Popular Versions"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:57
+msgctxt "ptw"
+msgid "All Versions"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:58
+msgctxt "ptw"
+msgid "Parent Version"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:59
+msgctxt "ptw"
+msgid "Parent Version:"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:60
+msgctxt "ptw"
+msgid "Edit Version"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:61
+msgctxt "ptw"
+msgid "Update Version"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:62
+msgctxt "ptw"
+msgid "Add New Version"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:63
+msgctxt "ptw"
+msgid "New Version"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:64
+msgctxt "ptw"
+msgid "Separate versions with commas"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:65
+msgctxt "ptw"
+msgid "Add or remove versions"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:66
+msgctxt "ptw"
+msgid "Choose from most used versions"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:95 phpdoc-to-wordpress.php:109
+msgctxt "ptw"
+msgid "Contexts"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:96
+msgctxt "ptw"
+msgid "Context"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:97
+msgctxt "ptw"
+msgid "Search Contexts"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:98
+msgctxt "ptw"
+msgid "Popular Contexts"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:99
+msgctxt "ptw"
+msgid "All Contexts"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:100
+msgctxt "ptw"
+msgid "Parent Context"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:101
+msgctxt "ptw"
+msgid "Parent Context:"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:102
+msgctxt "ptw"
+msgid "Edit Context"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:103
+msgctxt "ptw"
+msgid "Update Context"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:104
+msgctxt "ptw"
+msgid "Add New Context"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:105
+msgctxt "ptw"
+msgid "New Context"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:106
+msgctxt "ptw"
+msgid "Separate contexts with commas"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:107
+msgctxt "ptw"
+msgid "Add or remove Contexts"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:108
+msgctxt "ptw"
+msgid "Choose from most used Contexts"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:137 phpdoc-to-wordpress.php:151
+msgctxt "ptw"
+msgid "Types"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:138
+msgctxt "ptw"
+msgid "Type"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:139
+msgctxt "ptw"
+msgid "Search Types"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:140
+msgctxt "ptw"
+msgid "Popular Types"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:141
+msgctxt "ptw"
+msgid "All Types"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:142
+msgctxt "ptw"
+msgid "Parent Type"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:143
+msgctxt "ptw"
+msgid "Parent Type:"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:144
+msgctxt "ptw"
+msgid "Edit Type"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:145
+msgctxt "ptw"
+msgid "Update Type"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:146
+msgctxt "ptw"
+msgid "Add New Type"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:147
+msgctxt "ptw"
+msgid "New Type"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:148
+msgctxt "ptw"
+msgid "Separate types with commas"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:149
+msgctxt "ptw"
+msgid "Add or remove Types"
+msgstr ""
+
+#: phpdoc-to-wordpress.php:150
+msgctxt "ptw"
+msgid "Choose from most used Types"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "phpDoc to WordPress Helpers"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://github.com/paulgibbs/phpdoc-to-wordpress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Sets up the custom taxonomies used by the phpDoc to WordPress scripts."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Paul Gibbs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://byotos.com/"
+msgstr ""
