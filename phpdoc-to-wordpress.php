@@ -14,7 +14,7 @@ Domain Path: /languages/
 Text Domain: ptw
 
 "phpDoc to WordPress Helpers"
-Copyright (C) 20012 Paul Gibbs
+Copyright (C) 2012 Paul Gibbs
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
