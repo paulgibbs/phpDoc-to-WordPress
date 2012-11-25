@@ -253,12 +253,6 @@
 				<wp:meta_value><xsl:value-of select="../name"/></wp:meta_value>
 			</wp:postmeta>
 
-			<!-- Store post meta to mark this as a method -->
-			<wp:postmeta>
-				<wp:meta_key>_ptw_type</wp:meta_key>
-				<wp:meta_value>method</wp:meta_value>
-			</wp:postmeta>
-
 			<!-- Custom taxonomy meta -->
 			<xsl:apply-templates select="./docblock/tag[@name='since']"/>
 
