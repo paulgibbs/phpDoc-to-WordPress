@@ -1,8 +1,8 @@
-# Copyright (C) 2012 phpDoc to WordPress Helpers
-# This file is distributed under the same license as the phpDoc to WordPress Helpers package.
+# Copyright (C) 2012 phpDoc to WordPress -- Helpers
+# This file is distributed under the same license as the phpDoc to WordPress -- Helpers package.
 msgid ""
 msgstr ""
-"Project-Id-Version: phpDoc to WordPress Helpers 1.0\n"
+"Project-Id-Version: phpDoc to WordPress -- Helpers 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/phpdoc-to-wordpress\n"
 "POT-Creation-Date: 2012-11-25 19:27:15+00:00\n"
 "MIME-Version: 1.0\n"
@@ -223,7 +223,7 @@ msgid "Choose from most used Types"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "phpDoc to WordPress Helpers"
+msgid "phpDoc to WordPress -- Helpers"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
