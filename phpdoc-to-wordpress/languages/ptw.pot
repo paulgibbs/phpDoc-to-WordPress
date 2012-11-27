@@ -227,7 +227,7 @@ msgid "phpDoc to WordPress -- Helpers"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://github.com/paulgibbs/phpdoc-to-wordpress/"
+msgid "https://github.com/paulgibbs/phpDoc-to-WordPress/"
 msgstr ""
 
 #. Description of the plugin/theme

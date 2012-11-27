@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: phpDoc to WordPress -- Helpers
-Plugin URI: http://github.com/paulgibbs/phpdoc-to-wordpress/
+Plugin URI: https://github.com/paulgibbs/phpDoc-to-WordPress/
 Description: Sets up the custom taxonomies used by the phpDoc to WordPress scripts.
 Version: 1.0
 Requires at least: 3.5
